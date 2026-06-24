@@ -11,11 +11,13 @@ def get_link():
     try:
         res = requests.get("https://tr.canlitvme.com/dmax-canli-hd", headers=HEADERS, timeout=15)
         if res.status_code == 200:
-            match = re.search(r'(https://[^\s"\']+\.m3u8\?[^\s"\']+)', res.text)
+            # Həm normal .m3u8, həm də parametrləri olan (?...) linkləri tapmaq üçün reqex yeniləndi
+            match = re.search(r'(https?://[^\s"\']+\.m3u8(?:[^\s"\']*)?)', res.text)
             if match:
-                return match.group(1).replace("&amp;", "&")
-    except:
-        pass
+                clean_link = match.group(1).replace("&amp;", "&")
+                return clean_link
+    except Exception as e:
+        print(f"Xəta baş verdi: {e}")
     return None
 
 link = get_link()
@@ -24,7 +26,10 @@ if link:
     m3u_text = f'#EXTM3U\n#EXTINF:-1 group-title="Belgesel",DMAX HD\n{link}\n'
     with open("tv.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_text)
-    print("Yeniləndi!")
+    print("Yeniləndi! Tapılan link:", link)
 else:
-    print("Link tapılmadı.")
-  
+    # GitHub Actions xəta verməsin deyə boş da olsa fayl yaradırıq
+    with open("tv.m3u", "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n#EXTINF:-1 group-title=\"Belgesel\",DMAX HD\n# Link bu dəfə tapılmadı\n")
+    print("Link tapılmadı, amma boş tv.m3u faylı yaradıldı.")
+    
