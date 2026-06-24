@@ -1,3 +1,9 @@
 #EXTM3U
 #EXTINF:-1 group-title="Belgesel",DMAX HD
-https://worker-curly-glitter-4293.workers.dev/?url=https://cdn508.canlitvme.com/dmax/dmax/playlist.m3u8
+https://cdn508.canlitvme.com/dmax/dmax/playlist.m3u8
+#EXTINF:-1 group-title="Belgesel",TLC HD
+https://cdn508.canlitvme.com/tlc/tlc/playlist.m3u8
+#EXTINF:-1 group-title="Belgesel",Science HD
+https://cdn508.canlitvme.com/science/science/playlist.m3u8
+#EXTINF:-1 group-title="Belgesel",Nat Geo HD
+https://cdn508.canlitvme.com/natgeo/natgeo/playlist.m3u8
