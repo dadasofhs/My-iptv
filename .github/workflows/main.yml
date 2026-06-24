@@ -1,27 +1,27 @@
 name: IPTV Updater
 on:
   schedule:
-    - cron: '0 * * * *' # Hər saat tamamında avtomatik işləyəcək
-  workflow_dispatch: # İstəsən telefondan daxil olub özün də başlada bilərsən
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-    - name: Install Requests
-      run: pip install requests
-    - name: Run Bot
-      run: python bot.py
-    - name: Commit and Push
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add tv.m3u
-        git commit -m "Auto Update" || exit 0
-        git push
-        
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install Requests
+        run: pip install requests
+      - name: Run Bot
+        run: python bot.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add tv.m3u
+          git commit -m "Auto Update" || exit 0
+          git push
+          
