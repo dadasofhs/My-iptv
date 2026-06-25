@@ -1,29 +1,25 @@
 #EXTM3U
+#EXTINF:-1 group-title="Azərbaycan", İctimai TV (İTV)
+https://stream.itv.az/itv/itv.m3u8
+#EXTINF:-1 group-title="Azərbaycan", Xəzər TV
+https://live.xazar.az/hls/stream.m3u8
+#EXTINF:-1 group-title="Azərbaycan", CBC Azerbaijan
+https://stream.cbc.az/cbc/cbc.m3u8
 #EXTINF:-1 group-title="Belgesel", TRT Belgesel HD
-https://trt.canlitvme.com/trtbelgesel/trtbelgesel/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", DMAX HD (Yedek)
-https://cdn508.canlitvme.com/dmax/dmax/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", TLC HD (Yedek)
-https://cdn508.canlitvme.com/tlc/tlc/playlist.m3u8
+https://trt.live.enetres.net/live/trtbelgesel.m3u8
 #EXTINF:-1 group-title="Ulusal", TRT 1 HD
-https://trt.canlitvme.com/trt1/trt1/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", ATV HD
-https://atv.canlitvme.com/atv/atv/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", Kanal D HD
-https://kanald.canlitvme.com/kanald/kanald/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", Star TV HD
-https://star.canlitvme.com/star/star/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", Show TV HD
-https://show.canlitvme.com/show/show/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", TV8 HD
-https://tv8.canlitvme.com/tv8/tv8/playlist.m3u8
+https://trt.live.enetres.net/live/trt1.m3u8
 #EXTINF:-1 group-title="Spor", TRT Spor HD
-https://trt.canlitvme.com/trtspor/trtspor/playlist.m3u8
-#EXTINF:-1 group-title="Spor", A Spor HD
-https://aspor.canlitvme.com/aspor/aspor/playlist.m3u8
+https://trt.live.enetres.net/live/trtspor.m3u8
 #EXTINF:-1 group-title="Haber", TRT Haber HD
-https://trt.canlitvme.com/trthaber/trthaber/playlist.m3u8
-#EXTINF:-1 group-title="Haber", NTV HD
-https://ntv.canlitvme.com/ntv/ntv/playlist.m3u8
-#EXTINF:-1 group-title="Haber", CNN Türk HD
-https://cnnturk.canlitvme.com/cnnturk/cnnturk/playlist.m3u8
+https://trt.live.enetres.net/live/trthaber.m3u8
+#EXTINF:-1 group-title="Ulusal", TRT Avaz HD
+https://trt.live.enetres.net/live/trtavaz.m3u8
+#EXTINF:-1 group-title="Müzik", TRT Müzik
+https://trt.live.enetres.net/live/trtmuzik.m3u8
+#EXTINF:-1 group-title="Haber", HaberTürk HD
+https://ciner-live.daioncdn.net/haberturk/haberturk.m3u8
+#EXTINF:-1 group-title="Ulusal", Show TV HD
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
+#EXTINF:-1 group-title="Haber", Bloomberg HT
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
