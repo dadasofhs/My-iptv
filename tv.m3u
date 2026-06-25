@@ -1,61 +1,29 @@
 #EXTM3U
-#EXTINF:-1 group-title="Belgesel", DMAX HD
-https://cdn508.canlitvme.com/dmax/dmax/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", TLC HD
-https://cdn508.canlitvme.com/tlc/tlc/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", Science HD
-https://cdn508.canlitvme.com/science/science/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", Nat Geo HD
-https://cdn508.canlitvme.com/natgeo/natgeo/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", Nat Geo Wild HD
-https://cdn508.canlitvme.com/natgeowild/natgeowild/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", History Channel HD
-https://cdn508.canlitvme.com/history/history/playlist.m3u8
 #EXTINF:-1 group-title="Belgesel", TRT Belgesel HD
-https://kL9mR2vXw7nQ5pY1sH4tJ3gB6.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Belgesel", BBC Earth HD
-https://cdn508.canlitvme.com/bbcearth/bbcearth/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", Discovery Channel HD
-https://cdn508.canlitvme.com/discovery/discovery/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel", ID Xtra HD
-https://cdn508.canlitvme.com/idx/idx/playlist.m3u8
+https://trt.canlitvme.com/trtbelgesel/trtbelgesel/playlist.m3u8
+#EXTINF:-1 group-title="Belgesel", DMAX HD (Yedek)
+https://cdn508.canlitvme.com/dmax/dmax/playlist.m3u8
+#EXTINF:-1 group-title="Belgesel", TLC HD (Yedek)
+https://cdn508.canlitvme.com/tlc/tlc/playlist.m3u8
+#EXTINF:-1 group-title="Ulusal", TRT 1 HD
+https://trt.canlitvme.com/trt1/trt1/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal", ATV HD
 https://atv.canlitvme.com/atv/atv/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal", Kanal D HD
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
+https://kanald.canlitvme.com/kanald/kanald/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal", Star TV HD
 https://star.canlitvme.com/star/star/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal", Show TV HD
-https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
+https://show.canlitvme.com/show/show/playlist.m3u8
 #EXTINF:-1 group-title="Ulusal", TV8 HD
-https://tv8-tb-live.ercdn.net/tv8-geo/playlist.m3u8?st=BzpvJLJ9hDX-H3W1sQWquA&e=1639061641
-#EXTINF:-1 group-title="Ulusal", TRT 1 HD
-https://kL9mR2vXw7nQ5pY1sH4tJ3gB6.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Ulusal", NOW TV HD
-https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=pmpnZtJR3bDqP108qR4rvg&e=1782391195
-#EXTINF:-1 group-title="Ulusal", Kanal 7 HD
-https://kanal7.canlitvme.com/kanal7/kanal7/playlist.m3u8
-#EXTINF:-1 group-title="Ulusal", Beyaz TV HD
-https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
-#EXTINF:-1 group-title="Ulusal", A2 TV HD
-https://a2.canlitvme.com/a2/a2/playlist.m3u8
+https://tv8.canlitvme.com/tv8/tv8/playlist.m3u8
 #EXTINF:-1 group-title="Spor", TRT Spor HD
-https://kL9mR2vXw7nQ5pY1sH4tJ3gB6.medya.trt.com.tr/master.m3u8
+https://trt.canlitvme.com/trtspor/trtspor/playlist.m3u8
 #EXTINF:-1 group-title="Spor", A Spor HD
 https://aspor.canlitvme.com/aspor/aspor/playlist.m3u8
-#EXTINF:-1 group-title="Spor", Sports TV HD
-https://sportstv.canlitvme.com/sportstv/sportstv/playlist.m3u8
 #EXTINF:-1 group-title="Haber", TRT Haber HD
-https://kL9mR2vXw7nQ5pY1sH4tJ3gB6.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Haber", A Haber HD
-https://ahaber.canlitvme.com/ahaber/ahaber/playlist.m3u8
+https://trt.canlitvme.com/trthaber/trthaber/playlist.m3u8
 #EXTINF:-1 group-title="Haber", NTV HD
 https://ntv.canlitvme.com/ntv/ntv/playlist.m3u8
 #EXTINF:-1 group-title="Haber", CNN Türk HD
-https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/playlist.m3u8
-#EXTINF:-1 group-title="Haber", HaberTürk HD
-https://haberturk.canlitvme.com/haberturk/haberturk/playlist.m3u8
-#EXTINF:-1 group-title="Haber", Sözcü TV HD
-https://sozcu.canlitvme.com/sozcu/sozcu/playlist.m3u8
-#EXTINF:-1 group-title="Haber", Halk TV HD
-https://halktv.canlitvme.com/halktv/halktv/playlist.m3u8
+https://cnnturk.canlitvme.com/cnnturk/cnnturk/playlist.m3u8
